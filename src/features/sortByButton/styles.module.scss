@@ -1,0 +1,58 @@
+.root {
+  position: relative;
+  .btnPosition {
+    position: absolute;
+    right: 14px;
+    bottom: 6px;
+
+    background-color: transparent;
+    font-size: 12px;
+
+    img {
+      width: 20px;
+      height: 18px;
+    }
+  }
+
+  .root {
+    padding: 5px 0 5px 15px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .root:first-child {
+    font-weight: 700;
+  }
+
+  .root:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .root {
+    .btnPosition {
+      bottom: 10px;
+      right: 18px;
+
+      img {
+        width: 24px;
+        height: 20px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 425px) {
+  .root {
+    .btnPosition {
+      bottom: 9px;
+      right: 18px;
+
+      img {
+        width: 28px;
+        height: 24px;
+      }
+    }
+  }
+
+}

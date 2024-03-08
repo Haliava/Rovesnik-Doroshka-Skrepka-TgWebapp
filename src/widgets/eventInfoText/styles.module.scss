@@ -1,0 +1,84 @@
+.root {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    
+    &Name {
+        h1 {
+            font-size: 27px;
+            width: 102px;
+            line-height: 29.6px;
+            letter-spacing: -2px;
+            text-transform: uppercase;
+        }    
+    }
+    &Info {
+        p { 
+            display: flex;
+            gap: 60px;
+            margin-top: 5px;
+            font-size: 10px; 
+            line-height: 14.4px;
+
+            span {
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .root {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    
+        &Name {
+            h1 {
+                font-size: 35px;
+                width: 102px;
+                line-height: 33.6px;
+                letter-spacing: -2px;
+                text-transform: uppercase;
+            }    
+        }
+        &Info {
+            p { 
+                gap: 80px;
+                margin-top: 12px;
+                font-size: 12px; 
+                line-height: 14.4px;
+
+                span {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 375px) {
+    .root {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    
+        &Name {
+            h1 {
+                font-size: 35px;
+                width: 102px;
+                line-height: 33.6px;
+                letter-spacing: -2px;
+                text-transform: uppercase;
+            }    
+        }
+        &Info {
+            p { 
+                margin-top: 12px;
+                font-size: 12px; 
+                line-height: 14.4px;
+            }
+        }
+    }
+}
